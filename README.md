@@ -6,7 +6,7 @@ This repository contains samples for
 ## Overview
 
 All integration samples are in the `src/` directory with the file format `<file
-name>.integration.json`. If a sample has more than one file, all the files will
+name>-integration.json`. If a sample has more than one file, all the files will
 be available in the sample's directory in `src/`.
 
 A `.json` file has the metadata of an integration. You can directly upload the
