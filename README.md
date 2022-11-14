@@ -9,19 +9,21 @@ All integration samples are in the `src/` directory with the file format `<file
 name>.integration.json`. If a sample has more than one file, all the files will
 be available in the sample's directory in `src/`.
 
-A `.json` file has the metadata of an integration. You can directly import the
+A `.json` file has the metadata of an integration. You can directly upload the
 `.json` file as an integration to your project and run the integration. For more
 information, see
-[Upload and download integrations](https://cloud.google.com/application-integration/docs/upload-download).
+[Upload an integration](https://cloud.google.com/application-integration/docs/upload-download#upload-an-integration).
 
 ## How to: Execute an integration
 
 To execute an integration, perform the following steps:
 
-*   Click **Test** in the integration designer toolbar.</li>
-*   In the **Confirm Publish and Test** dialog, click **Publish &amp; Test**.
+*   Click **Test** in the integration designer toolbar.
+*   In the **Test Integration** dialog, click **Test integration**.
 *   After the integration completes successfully, the **Test Integration**
     dialog displays the completion message.
+*   To view the integration output, click **View Logs** in the **Test
+    Integration** dialog.
 
 ## How to: View execution logs
 
