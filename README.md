@@ -5,14 +5,17 @@ This repository contains samples for
 
 ## Overview
 
-All integration samples are in the `src/` directory with the file format `<file
-name>-integration.json`. If a sample has more than one file, all the files will
-be available in the sample's directory in `src/`.
+All integration samples are in the `src/` directory with the file format
+`<file_name>-integration.json`. If a sample has more than one file, all the
+files will be available in the sample's directory in `src/`.
 
 A `.json` file has the metadata of an integration. You can directly upload the
 `.json` file as an integration to your project and run the integration. For more
 information, see
 [Upload an integration](https://cloud.google.com/application-integration/docs/upload-download#upload-an-integration).
+
+**Note:** All files having sample data required for some of the samples have the
+file format `<file_name>-dataset.json`.
 
 ## How to: Execute an integration
 
